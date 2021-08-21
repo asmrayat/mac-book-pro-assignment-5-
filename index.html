@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac-Book</title>
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <!-- mainBody -->
+    <main>
+        <div class="lg-container overflow-hidden ">
+            <div class="row gx-5 ">
+                <!-- imageAdd -->
+                <div class="col-lg-6 col-12">
+                    <div class="p-3  bg-white"><img class="img-fluid" src="images/mac.png" alt=""></div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="p-3  bg-white">
+                        <h1 class="fw-bolder">Customize your Blue 24-inch iMac whit Apple M1 chip.</h1>
+                        <h6 class="mb-5 text-muted ">
+                            Apple M1 chip whit 8-core CPU whit 4 performsnce cores and 4 efficiency cores, 7-core
+                            GPU,and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt/USB 4
+                            ports Magic Mouse Magic Keyboard - US English
+                        </h6>
+                        <!-- MemorySection -->
+                        <div class="mb-5">
+                            <h4 class="fw-bolder">Memory</h4>
+                            <div class="d-flex justify-content-center d-lg-block">
+                                <button id="8gbMemory" type="button" class="mx-2 btn btn-outline-secondary">8GB unified
+                                    memory</button>
+                                <button id="16gbMemory" type="button" class="mx-2 btn btn-outline-secondary">16GB
+                                    unified
+                                    memory</button>
+                            </div>
+                        </div>
+                        <!-- StorageSection -->
+                        <div class="mb-5">
+                            <h4 class="fw-bolder">Storage</h4>
+                            <div class="d-flex justify-content-center d-lg-block">
+                                <button id="256storage" type="button" class="mx-2 btn btn-outline-secondary">256GB SSD
+                                    storage</button>
+                                <button id="512storage" type="button" class="mx-2 btn btn-outline-secondary">512GB SSD
+                                    storage</button>
+                                <button id="1TBstorage" type="button" class="mx-2 btn btn-outline-secondary">1TB SSD
+                                    storage
+                                </button>
+                            </div>
+                        </div>
+                        <!-- deliverySection -->
+                        <div class="mb-5 ">
+                            <h4 class="fw-bolder">Choose your delivery option</h4>
+                            <div class="d-flex justify-content-center d-lg-block">
+                                <button id="freeD" type="button" class="mx-2 btn btn-outline-secondary">Friday,Aug 25
+                                    FREE
+                                    Prime
+                                    Delivery</button>
+                                <button id="paidD" type="button" class="mx-2 btn btn-outline-secondary">Friday,Aug 21
+                                    Delivery
+                                    charge
+                                    $20</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <section class="mt-5 px-3">
+                        <!-- BestPrice -->
+                        <div class=" d-flex justify-content-between">
+                            <h5 class="fw-bolder">Best Price</h5>
+                            <h5 class="fw-bolder">$1299</h5>
+                        </div>
+                        <hr>
+                        <!-- TotalExtraMemory -->
+                        <div class="d-flex justify-content-between">
+                            <h5 class="fw-bolder">Extra Memory Cost</h5>
+                            <h5 class="fw-bolder">$ <span id="exMemory">0</span> </h5>
+                        </div>
+                        <hr>
+                        <!-- TotalStorage -->
+                        <div class=" d-flex justify-content-between">
+                            <h5 class="fw-bolder">Extra Storage Cost</h5>
+                            <h5 class="fw-bolder">$<span id="exStorage">0</span></h5>
+                        </div>
+                        <hr>
+                        <!-- TotalDelivery -->
+                        <div class="d-flex justify-content-between">
+                            <h5 class="fw-bolder">Delivery charge</h5>
+                            <h5 class="fw-bolder">$<span id="Dcharge">0</span></h5>
+                        </div>
+                        <hr>
+                        <!-- TotalAmount -->
+                        <div class="d-flex justify-content-between">
+                            <h5 class="fw-bolder">Total Price</h5>
+                            <h5 class="fw-bolder">$ <span id="total">1299</span></h5>
+                        </div>
+                    </section>
+
+
+
+                    <section class="mt-4 mb-2 px-3">
+                        <h4 class="text-black">Add Pomo code</h4>
+                        <div class="d-flex justify-content-start">
+                            <input id="cuponInput" type="text" class="form-control">
+                            <button id="cuponButton" type="button" class="btn btn-danger">Apply</button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <!-- footerSection -->
+    <footer>
+        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+        <h1 class="d-flex justify-content-center">
+            Total: $ <span id="footerTotal">1299</span>
+        </h1>
+    </footer>
+
+    <!-- script -->
+    <script src="java/app.js"></script>
+</body>
+
+</html>
