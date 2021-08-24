@@ -17,7 +17,7 @@ function totalAmount() {
         const cuponInput = document.getElementById('cuponInput');
         const cuponValue = cuponInput.value;
         console.log(cuponValue);
-        if (cuponValue == 'stevekaku') {
+        if (cuponValue == 'promo20') {
             const cuponapplied = parseFloat(total.innerText) * 0.2;
             footerTotal.innerText = total.innerText - cuponapplied;
             cuponInput.value = '';
