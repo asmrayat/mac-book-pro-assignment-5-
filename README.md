@@ -1,4 +1,5 @@
 Cupon code : promo20
 
-![MacBookPro](https://user-images.githubusercontent.com/86654494/130667959-8f7f9197-4e41-44c2-ba28-9989d2c3335e.jpg)
+![MacBookPro](https://user-images.githubusercontent.com/86654494/130668642-d3479b41-1df1-43c4-8021-3e5ca97855ce.png)
+
 
